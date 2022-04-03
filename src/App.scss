@@ -1,0 +1,30 @@
+.app-container {
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .app-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+  
+  .app-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .app-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .constructor-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
