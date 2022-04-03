@@ -1,0 +1,52 @@
+.mode-switch {
+  &_container {
+    max-width: max-content;
+    height: fit-content;
+    cursor: pointer;
+  }
+
+  &_inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--bg-color);
+    border-radius: 6px;
+    padding: 1px;
+  }
+
+  &_option {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    padding: 8px 12px;
+    border: 1px solid none;
+
+    &_icon {
+      max-height: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
+
+    &_text {
+      margin-left: 0.5rem;
+    }
+
+    &-container {
+      display: flex;
+      align-items: center;
+    }
+
+    &.active {
+      background-color: #fff;
+      border-radius: 5px;
+      border: 1px solid var(--border-color);
+
+      svg {
+        color: var(--emph-color);
+      }
+    }
+  }
+}

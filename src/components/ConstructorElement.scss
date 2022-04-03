@@ -1,0 +1,24 @@
+.constructor-element {
+  &_container {
+  }
+
+  &_inner {
+    border: 1px solid var(--border-color);
+    padding: 20px 30px;
+    border-radius: 6px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #fff;
+    margin: 1px;
+    width: 100%;
+
+    &:focus {
+      outline: 2px solid var(--emph-color);
+    }
+
+    &:active {
+      color: #fff;
+      background-color: var(--emph-color);
+    }
+  }
+}
