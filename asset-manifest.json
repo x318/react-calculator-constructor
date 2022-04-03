@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/react-calculator-constructor/static/css/main.9dd79e30.css",
+    "main.js": "/react-calculator-constructor/static/js/main.c0fb404e.js",
+    "index.html": "/react-calculator-constructor/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.9dd79e30.css",
+    "static/js/main.c0fb404e.js"
+  ]
+}
