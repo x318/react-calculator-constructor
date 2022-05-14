@@ -1,4 +1,4 @@
-# Checl it out on [Gitub Pages](https://x318.github.io/react-calculator-constructor/)
+# Check it out on [Gitub Pages](https://x318.github.io/react-calculator-constructor/)
 
 # React Calculator Constructor
 - ## Drag elements from the left to constructor zone
