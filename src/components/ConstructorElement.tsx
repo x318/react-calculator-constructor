@@ -1,8 +1,9 @@
 import './ConstructorElement.scss'
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { RootState } from '../store'
-import { pushEquation } from '../store/ctorSlice'
+
+import { RootState } from '@Store'
+import { pushEquation } from '@Store/constructorSlice'
 
 interface ConstructorElementProps {}
 

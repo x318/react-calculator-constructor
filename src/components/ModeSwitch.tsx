@@ -1,9 +1,10 @@
 import './ModeSwitch.scss'
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { RootState } from '../store'
-import { changeMode } from '../store/ctorSlice'
-import { ConstructorMode } from '../types/store'
+
+import { RootState } from '@Store'
+import { changeMode } from '@Store/constructorSlice'
+import { ConstructorMode } from '@Types/store'
 
 interface ModeSwitchProps {
   options: {

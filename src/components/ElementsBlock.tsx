@@ -1,9 +1,10 @@
 import './ElementsBlock.scss'
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { RootState } from '../store'
-import { removeElement } from '../store/ctorSlice'
-import { addElement } from '../store/elementsSlice'
+
+import { RootState } from '@Store'
+import { removeElement } from '@Store/constructorSlice'
+import { addElement } from '@Store/elementsSlice'
 
 interface ElementsBlockProps {}
 

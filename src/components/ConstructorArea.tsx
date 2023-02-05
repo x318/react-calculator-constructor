@@ -2,11 +2,13 @@ import './ConstructorArea.scss'
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { ImageOutline } from 'react-ionicons'
-import { RootState } from '../store'
-import { addElement } from '../store/ctorSlice'
-import { elementsMap } from './elementsMap'
-import { removeElement } from '../store/elementsSlice'
-import { ConstructorElement } from '../types/store'
+
+import { RootState } from '@Store'
+import { addElement } from '@Store/constructorSlice'
+import { removeElement } from '@Store/elementsSlice'
+import { elementsMap } from '@Components/elementsMap'
+
+import { ConstructorElement } from '@Types/store'
 
 interface ConstructorAreaProps {}
 

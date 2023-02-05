@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import elementsReducer from './elementsSlice'
-import ctorReducer from './ctorSlice'
+import ctorReducer from './constructorSlice'
 
 export const store = configureStore({
   reducer: {

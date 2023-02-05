@@ -1,6 +1,6 @@
-import ElementsBlock from './ElementsBlock'
-import ConstructorElement from './ConstructorElement'
-import { CalcScreen } from './CalcScreen'
+import ElementsBlock from '@Components/ElementsBlock'
+import ConstructorElement from '@Components/ConstructorElement'
+import { CalcScreen } from '@Components/CalcScreen'
 
 export const elementsMap: Record<string, () => JSX.Element> = {
   screen: () => (

@@ -1,14 +1,16 @@
 import './ElementsArea.scss'
 import { useEffect } from 'react'
 import { useSelector } from 'react-redux'
+
+import { RootState } from '@Store'
 import { elementsMap } from './elementsMap'
-import { RootState } from '../store'
-import { ConstructorElement } from '../types/store'
+
+import { ConstructorElement } from '@Types/store'
 
 interface ElementsAreaProps {}
 
 const ElementsArea = ({}: ElementsAreaProps): JSX.Element => {
-  const initialElements : ConstructorElement[] = ['screen', 'operations', 'numbers', 'equals']
+  const initialElements: ConstructorElement[] = ['screen', 'operations', 'numbers', 'equals']
   const elements = useSelector((state: RootState) => state.elements.elements)
   useEffect(() => {}, [elements])
 

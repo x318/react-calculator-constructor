@@ -1,9 +1,10 @@
 import { EyeOutline, CodeOutline } from 'react-ionicons'
-import ModeSwitch from './components/ModeSwitch'
-import ConstructorArea from './components/ConstructorArea'
-import ElementsArea from './components/ElementsArea'
+import ModeSwitch from '@Components/ModeSwitch'
+import ConstructorArea from '@Components/ConstructorArea'
+import ElementsArea from '@Components/ElementsArea'
+import './main.scss'
 
-const App = (): JSX.Element => {
+function App() {
   return (
     <div className="app-container">
       <div className="app-center">

@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { ConstructorMode } from '../types/store'
+import { ConstructorMode } from '@Types/store'
 
 export interface CtorState {
   mode: ConstructorMode
