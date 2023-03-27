@@ -11,13 +11,10 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.2",
-    "browserify-css": "0.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-ionicons": "^4.2.0",
-    "react-is": "^18.2.0",
-    "react-redux": "^8.0.5",
-    "styled-components": "^5.3.6"
+    "react-redux": "^8.0.5"
   },
   "devDependencies": {
     "@types/node": "^18.11.19",
