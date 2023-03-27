@@ -11,14 +11,22 @@
     background-color: #fff;
     margin: 1px;
     width: 100%;
+    cursor: grab;
 
-    &:focus {
-      outline: 2px solid var(--emph-color);
+    &:not(.disabled) {
+      cursor: pointer;
+      &:focus {
+        outline: 2px solid var(--emph-color);
+      }
+
+      &:active {
+        color: #fff;
+        background-color: var(--emph-color);
+      }
     }
 
-    &:active {
-      color: #fff;
-      background-color: var(--emph-color);
+    input {
+      cursor: inherit;
     }
   }
 }

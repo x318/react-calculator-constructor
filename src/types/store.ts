@@ -1,2 +1,2 @@
-export type ConstructorMode = 'Runtime' | 'Constructor'
+export type ConstructorMode = 'runtime' | 'constructor'
 export type ConstructorElement = 'screen' | 'operations' | 'numbers' | 'equals'
