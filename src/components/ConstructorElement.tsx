@@ -15,7 +15,7 @@ const ConstructorElement = ({ ...props }: ConstructorElementProps): JSX.Element 
   const mode = useSelector((state: RootState) => state.ctor.mode)
 
   const handleOnClick = (e: React.MouseEvent) => {
-    if (e.currentTarget.textContent && mode === 'runtime') {
+    if (e.currentTarget.textContent && mode === 'Runtime') {
       dispatch(pushEquation(e.currentTarget.textContent))
     }
   }
@@ -23,7 +23,7 @@ const ConstructorElement = ({ ...props }: ConstructorElementProps): JSX.Element 
   return (
     <div className="constructor-element_container">
       <button
-        className={`constructor-element_inner${mode !== 'runtime' ? ' disabled' : ''}`}
+        className={`constructor-element_inner${mode !== 'Runtime' ? ' disabled' : ''}`}
         onClick={(e) => handleOnClick(e)}
       >
         {props.children}
